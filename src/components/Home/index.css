@@ -1,0 +1,143 @@
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  background-color: #fafbff;
+  font-family: 'Roboto';
+}
+
+.right-section {
+  width: 100%;
+}
+
+.task-section {
+  padding: 20px 20px;
+}
+
+.task-section-heading {
+  font-size: 28px;
+  line-height: 30px;
+  color: #31354a;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #3366ff;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+a:visited {
+  color: #3366ff;
+}
+
+.task-section-description {
+  color: #767986;
+  font-size: 14px;
+  line-height: 16px;
+  font-style: italic;
+}
+
+.task-add-section {
+  margin-top: 50px;
+  background-color: #f9f9fa;
+  width: 368px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+}
+
+.task-add-section-title {
+  font-size: 12px;
+  line-height: 16px;
+  color: #313541;
+  letter-spacing: 1px;
+  padding-left: 10px;
+}
+
+.task-add-section-task-count {
+  color: #a2a4aa;
+  letter-spacing: 1px;
+  margin-left: 3px;
+}
+
+.task-add-section-button {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #e5e5e5;
+  border-right: none;
+  background-color: #f9f9fa;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-add-section-icon {
+  font-size: 16px;
+  color: #6c6c6d;
+}
+
+.tasks-list {
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  width: 368px;
+  background-color: white;
+  border: 1px solid #e5e5e5;
+  border-top: none;
+  border-bottom: none;
+  margin: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 10px 15px;
+}
+
+.task-item-icon {
+  height: 27px;
+  width: 27px;
+  background-color: #5a99e3;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.task-item-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+.task-item-msg {
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+}
+
+.task-item-date {
+  font-size: 11px;
+  line-height: 13px;
+  color: #d0021b;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.task-item-button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: white;
+  font-size: 16px;
+  color: #464a55;
+  margin-left: 8px;
+}
